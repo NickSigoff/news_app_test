@@ -15,7 +15,7 @@ class Application extends StatelessWidget {
         BlocProvider(create: (_) => CurrentSectionBloc()),
         BlocProvider(create: (_) => NewsPageContentBloc()),
       ],
-      child: MaterialApp(
+      child: const MaterialApp(
         home: HomePage(),
       ),
     );
